@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   cout << "Hello World! \n";
-  cout << "You may need g++";
+  cout << "You may need g++ \n";
   // this is a comment
   return 0;
 }
