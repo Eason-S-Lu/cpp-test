@@ -1,4 +1,6 @@
 #include <iostream>
+#include <iterator>
+#include <list>
 using namespace std;
 
 int main() {
@@ -8,7 +10,8 @@ int main() {
 		/* This is a comment that can last
 		more than one lines.*/
 	int a;
-	a = 1;
-	cout << a;
+	cout << "type a number:";
+	cin >> a;
+	cout << a << endl;
 return 0;
 }
